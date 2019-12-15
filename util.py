@@ -25,7 +25,6 @@ POSSIBLE_RANDOM_TILES = [2]*75 + [4]*25  # Hacky way to assign each value some o
 class Tile:
     def __init__(self):
         self.curr_val = None
-        self.merged_this_move = False
 
     def __str__(self):
         return str(self.curr_val) if self.curr_val != None else ' '
